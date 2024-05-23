@@ -3,7 +3,10 @@
 	background: black;
 	padding: 20px;
 	color: white;
-
+	width: 100%;
+position: fixed;
+z-index: 1;
+display: inline-block;
 }
 .header h1{
 	font-family:'Stylish1', sans-serif ;
@@ -20,6 +23,20 @@
     border-radius: 5px;
     width: 400px;
 }
+#home{
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+
+
+}
+#home:hover{
+border-bottom: 1px solid white;
+padding-bottom:10px ;
+	
+
+}
+
 ::placeholder{
     color: #555;
 }
@@ -77,8 +94,8 @@ height:450px ;
 	
 }
 .main .obuka img{
-width: 250px;
-height: 250px;
+width: 180px;
+height: 200px;
 }
 .main .obuka h4{
 text-transform: uppercase;

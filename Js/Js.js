@@ -1,15 +1,16 @@
 // Definišemo objekat koji mapira ključne reči sa linkovima
 const linksMap = {
-    'Prodaja': 'Prodaja.html',
+    'Home':'../index.html',
+    'Prodaja': 'html/Prodaja.html',
     'Obuka': '#10',
     'Cesta pitanja': '#1',
     'Dokumentacija':'#11',
     'Cenovnik': '#12',
-    'Biznis':'Biznis.html',
-    'Energija':'Energija.html',
-    'Canva/CapCut':'canva.html',
-    'Reklame':'Reklame.html',
-    'E-Book':'E-book.html',
+    'Biznis':'html/Biznis.html',
+    'Energija':'html/Energija.html',
+    'Canva/CapCut':'html/canva.html',
+    'Reklame':'html/Reklame.html',
+    'E-Book':'html/E-book.html',
     // Dodajte ostale ključne reči i njihove linkove ovde prema potrebi
 };
 

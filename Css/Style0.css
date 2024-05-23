@@ -1,3 +1,73 @@
+
+.header{
+	background: black;
+	padding: 20px;
+	color: white;
+	width: 100%;
+position: fixed;
+z-index: 1;
+display: inline-block;
+}
+.header h1{
+	font-family:'Stylish1', sans-serif ;
+	text-align: center;
+}
+.header input{
+	    flex:1;
+    height: 50px;
+    background: white;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color:#333;
+    border-radius: 5px;
+    width: 100px;
+}
+.header a{
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+
+
+}
+.header a:hover{
+border-bottom: 1px solid white;
+padding-bottom:10px ;
+    text-decoration: none;
+	
+
+}
+
+::placeholder{
+    color: #555;
+}
+
+.header .rezultat ul{
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+    background-color: white;
+text-decoration: none;
+
+}
+.header .rezultat ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+.header .rezultat ul li:hover{
+background-color:#e9f3ff;
+text-decoration: none;
+
+}
+.header .rezultat{
+max-height: 300px;
+overflow-y: scroll;
+}
+
+
 .main{
 	padding-top:115px ;
 	padding-bottom:115px ;
